@@ -1,0 +1,24 @@
+#include <iostream>
+
+// Removing std:: requirement
+using namespace std;
+
+// Namespace declaration
+namespace aryan {
+    int x = 1;
+    int y = 2;
+}
+
+// Main function
+int main() {
+
+    // NAMESPACE USAGE and POSTING OUTPUT
+
+    // calling the namespace
+    using namespace aryan;
+
+    // Output the sum of x and y
+    std::cout << "The sum of x and y is: " << (x + y) << std::endl;
+
+    return 0;
+}
