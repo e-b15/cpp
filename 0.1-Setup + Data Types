@@ -1,0 +1,32 @@
+#include <iostream>
+
+// Removing std:: requirement
+using namespace std;
+
+// Main function
+int main() {
+
+    
+    // DATA TYPES IN C++
+
+    // int, double, float, char, bool
+    // int (integer)
+    int myInt = 10;
+
+    // double (double-precision floating point)
+    double myDouble = 10.99;
+
+    // float (single-precision floating point)
+    float myFloat = 5.75f;
+
+    // char (character)
+    char myChar = 'A';
+
+    // bool (boolean)
+    bool myBool = true;
+
+    // string (text)
+    string myString = "Hello, World!";
+
+    return 0;
+}
