@@ -6,7 +6,7 @@ I host a YouTube channel dedicated to teaching Modern C++ (C++17/20). I believe 
 
 **Note:** For specific tutorial code, please switch to the `Tutorials` branch.
 
-**The things that will be posted here is the code for: **
+The things that will be posted here is the code for:
   -   A large project that I will start building once I have a deep enough understanding of C++.
   -   The code for my USACO (United States of America Computing Olympiad) training
   -   The videos I post on YouTube teaching C++
