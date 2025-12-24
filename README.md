@@ -1,6 +1,6 @@
 I host a YouTube channel dedicated to teaching Modern C++ (C++17/20). I believe in "Learning by Building," so every tutorial comes with documented source code.
 
-**YouTube link to my channel where all this code will be written on camera: **
+YouTube link to my channel where all this code will be written on camera:
   -  YouTube Channel [https://www.youtube.com/@Searchability-f3y/playlists]
   -  C++ Tutorials [https://www.youtube.com/watch?v=vJ_JuG5-v3A&list=PLJtYz2NTPBwDEvwLPzhafz12UNINdqQ7Q]
 
