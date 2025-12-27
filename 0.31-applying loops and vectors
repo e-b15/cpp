@@ -1,0 +1,55 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main () {
+
+int below18 = 0;
+    int above18 = 0;
+    int equal18 = 0;
+
+    vector<int> ages = {
+    22, 14, 18, 45, 12, 67, 19, 10, 15, 30, 
+    5, 17, 21, 25, 13, 11, 40, 60, 18, 16, 
+    23, 8, 55, 14, 29, 31, 12, 10, 19, 22, 
+    16, 17, 44, 20, 18, 9, 72, 15, 14, 28, 
+    33, 12, 11, 18, 19, 45, 50, 6, 17, 22, 
+    13, 24, 27, 15, 18, 19, 20, 21, 14, 12, 
+    10, 35, 42, 18, 17, 16, 15, 29, 31, 11, 
+    14, 22, 19, 13, 12, 18, 20, 25, 17, 16, 
+    8, 9, 40, 33, 22, 18, 14, 15, 19, 21, 
+    26, 12, 11, 10, 18, 17, 20, 24, 29, 30
+    };
+
+    // count how many are above 18
+
+    for (int x = 0; x < ages.size(); x++) {
+
+        // Check if age is below 18
+        if (ages[x] < 18) {
+            below18 += 1;
+        } 
+
+        // Check if age is greater than 18
+        else if (ages[x] > 18) {
+            above18 += 1;
+        }
+
+        // Check if age is equal to 18
+        else if (ages[x] == 18) {
+            equal18 += 1;
+        } 
+        
+    }
+
+    cout << "Total people: " << ages.size() << endl;
+    cout << "Age Distribution:" << endl;
+    cout << below18 << " people have access: DENIED (< 18)" << endl;
+    cout << above18 << " people have access: GRANTED (> 18)" << endl;
+    cout << equal18 << " people have access: GRANTED (= 18)" << endl;
+
+
+    return 0;
+}
