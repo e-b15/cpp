@@ -1,0 +1,26 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+void isAbove18(vector<int> ages) {  
+    for (int x = 0; x < ages.size(); x++) {
+        if (ages[x] > 18) {
+            cout << "Age " << ages[x] << ": GRANTED" << endl;
+        } else {
+            cout << "Age " << ages[x] << ": DENIED" << endl;
+        }
+    }
+    
+};
+
+
+int main () {
+
+    vector<int> ages = {16, 21, 18, 14, 30, 25, 17, 19, 22, 15};
+
+    
+    isAbove18(ages);
+
+    return 0;
+};
