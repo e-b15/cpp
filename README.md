@@ -1,4 +1,4 @@
-I host a YouTube channel dedicated to teaching Modern C++ (C++17/20). I believe in "Learning by Building," so every tutorial comes with documented source code.
+I host a YouTube channel dedicated to teaching Modern C++ (C++17/20). I believe in "Learning by Building," so every tutorial comes with documented source code along with the raw, unedited footage of me programming, debugging, and struggling. 
 
 YouTube link to my channel where all this code will be written on camera:
   -  YouTube Channel [https://www.youtube.com/@Searchability-f3y/playlists]
